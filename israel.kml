@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <LookAt>
+            <longitude>35.0</longitude>
+            <latitude>31.5</latitude>
+            <altitude>1000000.0</altitude>
+            <heading>0.0</heading>
+            <tilt>0.0</tilt>
+            <range>500000.0</range>
+            <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <NetworkLink>
+            <name>Israel</name>
+            <visibility>1</visibility>
+            <open>1</open>
+            <description>Country boundaries of Israel.</description>
+            <LookAt>
+                <longitude>35.0</longitude>
+                <latitude>31.5</latitude>
+                <altitude>1000000.0</altitude>
+                <heading>0.0</heading>
+                <tilt>0.0</tilt>
+                <range>500000.0</range>
+                <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <Placemark>
+                <name>Israel</name>
+                <Polygon>
+                    <outerBoundaryIs>
+                        <LinearRing>
+                            <coordinates>
+                                34,29
+                                36,29
+                                36,33
+                                34,33
+                                34,29
+                            </coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Url>
+                <href>http://localhost:8080/geoserver/ne/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=countries&amp;styles=countries_mapcolor9&amp;height=370&amp;width=768&amp;transparent=false&amp;srs=EPSG:4326</href>
+                <refreshInterval>0.0</refreshInterval>
+                <viewRefreshMode>onStop</viewRefreshMode>
+                <viewRefreshTime>1.0</viewRefreshTime>
+                <viewBoundScale>1.0</viewBoundScale>
+            </Url>
+        </NetworkLink>
+    </Document>
+</kml>
